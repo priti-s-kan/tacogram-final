@@ -69,5 +69,5 @@ Rails.application.configure do
   config.web_console.whiny_requests = false
 
   # indicate which service to use for attachments
-  config.active_storage.service = :local
+  config.active_storage.service = :amazon
 end
